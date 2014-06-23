@@ -1,9 +1,9 @@
 language: scala
 
 scala: 2.10.4
-matrix:
-    include:
-      - jdk: openjdk7
 
 script:
  - "sbt ++$TRAVIS_SCALA_VERSION test"
+matrix:
+ include:
+  - jdk: oraclejdk7
