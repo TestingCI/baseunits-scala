@@ -1,7 +1,9 @@
 language: scala
 
-scala:
- - 2.10.0
+
+matrix:
+    include:
+      - scala: 2.10.0
 
 
 
